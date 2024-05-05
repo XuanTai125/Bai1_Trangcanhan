@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="trangchu.css">
+    <title>Trang cá nhân</title>
+</head>
+<body>
+  <div id="flip" MENU style="text-align: center;">
+    <img src="./img/tai.jpg" class="profile-image" style="justify-content: center">      
+    <h1 id="moving-text">CHÀO MỪNG ĐẾN VỚI TRANG CÁ NHÂN CỦA TÔI</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sở thích</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Nghe nhạc</a></li>
+                        <li><a href="#">Đọc sách</a></li>
+                        <li><a href="#">Chơi game</a></li>
+                    </ul>
+                </li>
+               
+                <li><a href="#">Liên hệ</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Zalo</a></li>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+            <div class="row container" style="text-align: left">
+                <div class="col-lg-8" style="background-color: rgb(251, 251, 251)">
+                    <main>
+                        <p>
+                            <h2>GIỚI THIỆU BẢN THÂN</h2>
+                                 <p>Trịnh Xuân Tài</p>
+                                 <P>12/05/2003</P>
+                                <img src="./img/tai4.jpg" width="100%" >
+                                <p>Tôi là sinh viên năm ba nghành Thương mại điện Tử. Là một sinh viên năng động với tinh thần ham học hỏi và cầu tiến trong cả cuộc sống lẫn công việc.
+                                </p>
+                        </p>
+<h2>CÁC MÔN THỂ THAO YÊU THÍCH</h2>
+                                <p>Cầu lông<br>
+                                   Tập gym
+                                </p>
+                                <img src="./img/sothich1.jpg" width="100%">
+                                <img src="./img/sothich2.jpg" width="100%">
+                                <p> Tôi là người rất thích tập thể dục thể thao để tăng cường sức khỏe. Mỗi tuần tôi thường đi đánh cầu lồng 2-3 buổi và hiện tại tôi đã tập gym được một thời gian với mong muốn cơ thể khỏe, đẹp hơn.
+                                </p>
+                        </p>
+
+                        <p>
+                            <h2>NHỮNG NGƯỜI BẠN THÂN THIẾT CỦA TÔI</h2>
+                                <p>Những người bạn từ thời cấp 2,3 và cả đại học</p>
+                                <img src="./img/banbe1.jpg" width="100%">
+                                <img src="./img/banbe2.jpg" width="100%">
+                                <img src="./img/banbe3.jpg" width="100%">
+                                <p> Tôi là một người vui vẻ, hòa đồng nên về bạn bè mối quan hệ xã giao thì khá nhiều, nhưng những người bạn thân thiết thì những người tôi đã liệt kê ở trên và còn một ít nữa nhưng tôi chưa liệt kê hết được.
+                                </p>
+                        </p>
+                    </main>
+                </div>
+
+                <div class="col-lg-4" style="background-color: white">
+                    <aside>
+                        <h2>THÔNG TIN LIÊN HỆ CỦA TÔI</h2>
+                        <p>
+                            SDT: 0819620372<br>
+                            Email: trinhtai1252003@gmail.com<br>
+                            Facebook: <a href="https://web.facebook.com/trinhtai1252003?_rdc=1&_rdr" target="_blank">Trịnh Tài</a>
+
+                        </p>
+                        
+                        <h2>NHỮNG HÌNH ẢNH THÊM VỀ BẢN THÂN TÔI</h2>
+                            <img src="./img/tai1.jpg" alt="banthan" width="100%">
+                            <img src="./img/tai2.jpg" alt="banthan" width="100%">
+                            <img src="./img/tai3.jpg" alt="banthan" width="100%">
+                    </aside>
+                </div>
+            </div>
+    <footer>
+        <h3><b>CẢM ƠN BẠN ĐÃ GHÉ QUA</b></h3>
+        <p>Tôi Trịnh Xuân Tài rất vui vì bạn đã ghé thăm</p>
+<p>Có vấn đề gì hãy liên hệ với tôi qua phần thông tin liên hệ nhé!</p>
+    </footer>
+    <script src="trangchu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("#flip").click(function(){
+    $("#panel").toggle("slow");
+    });
+    });
+    </script>         
+    </div>
+</body>
+</html>
